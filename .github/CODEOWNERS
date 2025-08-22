@@ -1,0 +1,38 @@
+# CODEOWNERS file for search-database-532
+# Global owners - will be requested for all PRs
+* @Armor-test/team-security @Armor-test/squad-performance @Armor-test/grp-payments
+
+# Directory ownership
+/models/ @Armor-test/squad-frontend @Armor-test/team-reporting
+/config/ @Armor-test/squad-cloud @Armor-test/dept-security
+/db/ @Armor-test/squad-apps @Armor-test/squad-reporting @Armor-test/dept-release
+/tests/ @Armor-test/unit-devops @Armor-test/team-logging
+/shared/ @Armor-test/grp-ui @Armor-test/squad-tooling @Armor-test/squad-performance
+/helpers/ @Armor-test/grp-api @Armor-test/squad-mobile
+/lib/ @Armor-test/dept-api @Armor-test/squad-search @Armor-test/team-notifications
+/test/ @Armor-test/unit-test @Armor-test/squad-frontend
+/components/ @Armor-test/squad-reporting @Armor-test/squad-search
+/services/ @Armor-test/unit-devops @Armor-test/dept-logging @Armor-test/squad-reporting
+/examples/ @Armor-test/squad-tooling @Armor-test/grp-api
+/security/ @Armor-test/team-logging @Armor-test/squad-api @Armor-test/squad-research
+/dist/ @Armor-test/grp-search @Armor-test/unit-design
+/extensions/ @Armor-test/squad-performance @Armor-test/unit-governance
+/core/ @Armor-test/squad-product @Armor-test/squad-cloud
+
+# File type ownership
+*.tf @Armor-test/dept-identity @Armor-test/unit-governance
+*.gradle @Armor-test/dept-security @Armor-test/dept-reliability @Armor-test/squad-product
+*.lock @Armor-test/squad-reporting @Armor-test/grp-search @Armor-test/squad-ml
+*.config @Armor-test/dept-notifications @Armor-test/unit-cloud
+*.cs @Armor-test/grp-ui @Armor-test/dept-reporting
+*.xml @Armor-test/dept-reporting @Armor-test/dept-reliability @Armor-test/team-core
+*.ts @Armor-test/team-governance @Armor-test/squad-product @Armor-test/squad-payments
+*.rs @Armor-test/grp-api @Armor-test/squad-reporting
+*.html @Armor-test/squad-apps @Armor-test/unit-test
+*.php @Armor-test/unit-governance @Armor-test/squad-mobile @Armor-test/dept-test
+
+# Security and special files
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+Dockerfile @Armor-test/devops @Armor-test/infra
+package.json @Armor-test/dependency-team @Armor-test/security
+/src/**/security/ @Armor-test/security @Armor-test/compliance
